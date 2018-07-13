@@ -1,0 +1,8 @@
+Eager execution is an important step, defined in the run interface where operations are executed immediately as soon as they are called from Python.
+
+The benefits of eager execution are:
+	Fast debugging with intermediate runtime errors.
+	Integration with Python tools.
+	Support fot the dynamic models using easy to use python control flow.
+
+In the code part, if the eager executin is used then then the operations are executed immediately and returns the value as soon as it is called. That is in python without running session.run().
